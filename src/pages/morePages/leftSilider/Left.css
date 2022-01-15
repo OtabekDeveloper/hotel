@@ -1,0 +1,144 @@
+.rightHeader {
+    background-image: url("/public/assets/morePages/fullBg.jpg");
+    width: 100%;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   }
+
+.bgLiner {
+    background-image: linear-gradient(to right, #ff00645e, #70559e7a);
+    width: 100%;
+    height: 180px;
+}
+
+
+
+.rightHederH1 {
+    font-size: 2.6em;
+    padding-top: 50px;
+    font-weight: 400;
+}
+
+.rightHederp {
+    text-decoration: none;
+    color: #deb666;
+}
+
+.rightContainer{
+    margin: 50px 30px;
+}
+
+.rightContainerH1{
+    color: #606060;
+    font-weight: 400;
+    font-family: none;
+}
+
+.rightConP{
+    font-size: 1em;
+    line-height: 1.6;
+    margin: 10px 0;
+    color: #858a99;
+}
+
+.rightImg1{
+    width: 100%;
+}
+
+.rightSearch{
+    background: #FFF;
+    border: 1px solid #E5E5E5;
+    color: #888;
+    float: left;
+    font-size: 13px;
+    height: 39px;
+    letter-spacing: 1px;
+    margin: 6px 0 25px 0;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+}
+
+.rightH3{
+    display: inline-block;
+    color: #585858;
+    font-size: 23px;
+    padding-left: 29px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: inherit;
+}
+.rigthIcon3 {
+    background-color: #1DC1F8;
+    color: white;
+    font-size: 20px;
+    border-radius: 4px;
+    margin: 0 0 4px 0;
+}
+
+
+.rightH4 {
+    display: inline-block;
+    color: #606060;
+    font-size: 19px;
+    width: 170px;
+
+    position: relative;
+    bottom: 68px;
+    left: 128px;
+}
+
+.rightConPN {
+    display: inline-block;
+    color: #858a99;
+    font-size: 15px;
+
+    position: relative;
+    bottom: 49px;
+    right: 40px;
+}
+
+.rightConIcon {
+    color: #858a99;
+    margin-right: 12px;
+    font-size: 11px;
+}
+
+.rightDemo{
+    transition: 0.8s;
+    width: 120px;
+    height: 63px;
+    position: relative;
+    overflow: hidden;
+}
+
+.rightDemo:hover .rightRight2Img{
+    transform: scale(1.1);
+}
+
+.rightIconConnect{
+    opacity: 0;
+}
+
+.rightDemo:hover  .rightIconConnect{
+    width: 120px;
+    height: 63px;
+    background-color: #1dc1f8;
+    opacity: 0.6;
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    top: 0;
+    transition: 0.8s;
+}
+
+.rightChain{
+    padding: 10px 0px 0 0;
+}
+
+.rightDiv1{
+    width: 304px;
+    height: 85px;
+}
