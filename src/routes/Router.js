@@ -1,9 +1,12 @@
+import React from 'react'
 
+import ContactUs from '../view/ContactUs/ContactUs'
 
-function Router(){
-    return(
+function Router() {
+    return (
         <>
-            <h1>RouterPage</h1>
+          
+           <ContactUs/>
         </>
     )
 }

@@ -1,0 +1,276 @@
+.top_ul{
+
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+  
+}
+.top_ul li a{
+    text-decoration: none;
+    color: #a9a9a9;
+    
+    
+}
+.top_ul #top_select{
+    background: #f5f5f5;
+    color: #a9a9a9;
+}
+.top_col0{
+    background: #f5f5f5;
+    border-bottom: 1px solid #ededed;
+    color: #a9a9a9;
+    height: 40px;
+    line-height: 40px;
+}
+.top_col{
+        align-items: center !important;
+        align-self: center !important;
+}
+.top_row{
+    align-self: center;
+    align-items: center;
+   
+
+}
+#top_select{
+    border: none !important;
+    
+    
+}
+
+/* dsfffffffffff */
+.collapse1 .ul1{
+   
+    width: 100%;
+    float: right !important;
+   
+  
+}
+.collapse1 .ul1 li{
+   margin-left: 20px;
+   padding: 5px 0;
+   border-bottom: 1px solid #f5f5f5;
+
+} 
+
+.ul2 li a{
+    margin-left: 0px;
+    padding: 0px 20px 0px 0px;
+    
+        color: #858a99;
+        padding: 0;
+        text-transform: none;
+        font-weight: 500;
+    
+   
+}
+
+
+
+.logo_img{
+    width: 160px;
+
+}
+
+.ul2{
+  
+    margin-top: 0px;
+    border-radius: 0;
+    background: #fff;
+    /* border: 1px solid #e6eff2; */
+    border-top: 2px solid #e6eff2;
+    padding: 0;
+    min-width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: none;
+    
+  
+
+   
+}
+.li11:hover .ul2{
+     
+    animation-name: MainMenu;
+    animation-duration: .4s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    display: block;
+}
+@keyframes MainMenu {
+    from {
+        opacity: 0;
+        margin-top: 10px;
+    }
+    to {
+        opacity: 1;
+        margin-top: 0px;
+    }
+}
+
+
+/* .li2{
+    padding: 5px 0;
+    border-bottom: 1px solid #f5f5f5;
+} */
+
+/* .simple_menu .ul2 li {
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #EEF2F5;
+    color: #a5b4be;
+}
+.ul2 li:hover {
+    background: #fbfbfb;
+}
+.ul2 li a {
+    padding: 8px 20px;
+    color: #858a99;
+    font-size: 0.9em;
+    font-weight: 400;
+    text-transform: none;
+}
+.ul2 li a:hover {
+    color: #79868f;
+} */
+
+.color{
+
+    color: #606060;
+    
+    font-size: .95em;
+    font-weight: 900;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+   
+    transition: all 0.3s;
+}
+.coloractive{
+    color: #deb666 !important;
+}
+.color:hover{
+    color: #deb666 !important;
+}
+
+/* pages */
+
+.mega_menu {
+    position: static !important;
+    padding: 0px;
+    margin: 0px;
+   
+}
+.mega_menu_inner {
+    padding: 20px 30px !important;
+    /* width: auto !important; */
+}
+.mega_menu_inner ul .list_title {
+    padding: 10px 0;
+    font-size: .9em;
+    color: #858a99;
+    font-weight: 700;
+    text-transform: uppercase !important;
+}
+
+.mega_menu_inner ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+ .mega_menu .mega_menu_inner ul li a {
+    color: #858a99;
+    padding: 0;
+    text-transform: none;
+    font-weight: 500;
+}
+
+ .mega_menu .mega_menu_inner ul li a:hover {
+    color: #79868f;
+}
+
+.mega_menu.mega_menu_fullwidth .dropdown-menu {
+    left: 0;
+    right: 0;
+}
+
+ /* b.caret,
+ b.caret-up {
+    display: none;
+} */
+.ul_md{
+    list-style: none;
+}
+
+
+
+.menu_button .but {
+    margin-top: 22px;
+    padding: 8px 16px;
+    color: #fff !important;
+    font: 14,5px Lato, sans-serif !important;
+    font-weight: 600 !important;
+}
+.menu_button{
+    background: #deb666;
+    align-items: center;
+    align-self: center;
+  
+}
+.menu_button .but:hover,
+.menu_button .but:focus,
+.menu_button .but:active {
+    background: #b69854;
+    border-color: #b69854;
+    color: #fff !important;
+}
+
+.menu_button .but {
+    margin-top: 12px;
+    text-decoration: none;
+}
+    /* $(window).scroll(function(){
+            if($(this).scrollTop() > 100){
+                $('.nav').addClass('sticky')
+            } else{
+                $('.nav').removeClass('sticky')
+            }
+        });
+*/ */
+/* // const [stickyClass, setStickyClass] = useState("");
+
+// function stickNavbar() {
+//     let windowHeight = window.scrollY;
+//     setStickyClass("sticky-nav") ? windowHeight > 500 : setStickyClass("");
+// }
+
+// useEffect(() => {
+//     window.addEventListener("scroll", stickNavbar);
+// }, []); */
+
+.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 100; /* this is optional and should be different for every project */
+  }
+
+  .sticky-wrapper {
+    position: relative;
+    height: 3rem; /* We need to change this value */
+  }
+  
+  .sticky .sticky-inner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background: #fff;
+  }
+
+
+
+
+
+

@@ -1,0 +1,186 @@
+#contact-form-page {
+    margin-top: 30px;
+}
+#contact_page{
+    padding-top: 30px;
+}
+
+.main_title h2{
+    color: #606060;
+    font: Releway,sans-serif;
+}
+
+.main_titlea h2{
+    color: #606060 !important;
+    font: Releway,sans-serif !important;
+}
+#contact-form-page .form-control {
+    height: 52px;
+    border-radius: 1px;
+    border: 1px solid #dfdfdf;
+    background-color: #fcfcfc;
+}
+
+#contact-form-page .form-group {
+    padding-bottom: 30px;
+}
+
+#contact-form-page .form-group textarea {
+    height: 135px;
+}
+
+#contact_page .contact-info,
+#contact_page_style_2 .contact-info {
+    list-style: none;
+}
+
+#contact_page .contact-info li,
+#contact_page_style_2 .contact-info li {
+    padding: 8px 0;
+    font-weight: 700;
+    color: #858A99;
+    font: 15px Loto, sans-serif;
+    font-size: 17px;
+}
+.contact-info li {
+    padding: 8px 0;
+    font-weight: 700;
+}
+
+#contact_page .contact-info li span,
+#contact_page_style_2 .contact-info li span {
+    display: block;
+    font-size: 1em;
+    color: #deb666;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+
+
+label {
+    font-size: .9em;
+    color: #606060;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.form-group button{
+    background: #deb666;
+    padding: 8px 15px;
+    margin: 40px 0px 0px;
+    color: #ffffff;
+    font: 13,5px Lato,sans-serif;
+}
+.button.btn_blue {
+    background: #deb666;
+    border-color: #deb666;
+    color: #fff;
+}
+.mt40 {
+    margin-top: 40px;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+.pull-right {
+    float: right!important;
+}
+button {
+    outline: none;
+}
+
+/* social media      */
+
+.social_media{
+    list-style: none;
+}
+.social_media li{
+    display: inline-block;
+}
+
+.fk{
+    background: #f4f4f4 ;
+    text-align: center;
+    width: 40px !important;
+    height: 40px !important;
+    text-decoration: none !important;
+    border-radius: 2px;
+    line-height: 40px;
+    border: none;
+   margin-right: 10px;
+   cursor: pointer;
+
+    
+}
+
+
+.f:hover {
+    background-color: #3b5998 ;
+}
+.f:hover .facebook{
+    color: #ffffff;
+}
+.f{
+    color: #3b5998;
+}
+
+.t:hover {
+    background-color: #08a0e9 ;
+}
+.t:hover .twitter{
+    color: #e8f5ed;
+}
+.t{
+    color: #08a0e9;
+}
+.ft{
+    color: #08a0e9;
+}
+
+.g:hover {
+    background-color: #ff3e30 ;
+}
+.g:hover .google{
+    color: #e8f5ed;
+}
+.g{
+    color: #ff3e30 !important;
+    
+}
+.fg{
+    color: #ff3e30;
+}
+.l:hover {
+    background-color: #0077b5 ;
+}
+.l:hover .linced{
+    color: #e8f5ed;
+}
+.fl{
+    color: #0077b5;
+}
+.p:hover {
+    background-color: #ff3e30 ;
+}
+.p:hover .fp{
+    color: #e8f5ed;
+}
+.fp{
+    color: #ff3e30;
+}
+.i:hover {
+    background-color: #3b5998 ;
+}
+.i:hover .instagram{
+    color: #e8f5ed;
+}
+.fi{
+    color: #3b5998;
+}
+
+/* social_media tugadi */
+
+
