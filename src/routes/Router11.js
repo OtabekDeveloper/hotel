@@ -1,14 +1,13 @@
-import React from 'react'
 
 import ContactUs from '../view/ContactUs/ContactUs'
 
 function Router() {
     return (
         <>
-          
-           <ContactUs/>
+          <ContactUs/>
         </>
     )
 }
 
 export default Router
+
