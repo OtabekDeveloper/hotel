@@ -1,0 +1,26 @@
+.places_item {
+    margin-bottom: 30px;
+    position: relative;
+    -webkit-transition: 5;
+    transition: 5;
+}
+
+.places_item img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.places_item .place_name {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    z-index: 9;
+}
+
+.places_item .place_name h2 {
+    color: #000;
+    font-size: 13px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 5px;
+}

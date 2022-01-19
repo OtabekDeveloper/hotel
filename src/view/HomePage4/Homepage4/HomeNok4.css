@@ -1,0 +1,53 @@
+
+.video{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    background-image: url('../../../../public/assets/HomeIMG/hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.video_popup {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.video_popup a {
+    position: relative;
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    display: block;
+    background: transparent;
+    border: 6px solid #fff;
+    margin: 0 auto;
+    opacity: .5;
+    text-align: center;
+    z-index: 9;
+}
+
+#video .video_popup a .Iconvideo {
+    color: #fff;
+    margin-left: 8px;
+    font-size: 2.8em;
+    line-height: 2.8em;
+    
+}
+
+.Iconvideo{
+    font-size: 6.2em;
+    color: white;  
+}
+
+.inner {
+    padding: 100px 0;
+    background: linear-gradient(48deg, #2313139e,#795f5f00);
+}
+
+@media (max-width: 336px){
+    .inner {
+        padding: 0;
+        background: linear-gradient(48deg, #2313139e,#795f5f00);
+    }
+}
