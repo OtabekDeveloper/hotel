@@ -1,0 +1,62 @@
+.gs2_item {
+    box-sizing: border-box;
+    position: relative;
+}
+
+.gs2_item {
+    margin-bottom: 10%;
+}
+
+.hover_effect {
+    display: block;
+    position: relative;
+    background: none;
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+}
+
+.hover_effects img {
+
+    width: 90%;
+
+    margin-left: 8%;
+}
+
+
+
+.HomeImf {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3%;
+}
+
+.hover_effect:after {
+    font-family: FontAwesome;
+    color: #fff;
+    position: absolute;
+    font-size: 1.6em;
+    text-align: center;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    left: 50%;
+    top: 50%;
+    margin-left: -20px;
+    margin-top: -20px;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    -webkit-transform: scale(0.1, 0.1);
+    transform: scale(0.1, 0.1);
+    filter: alpha(opacity=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+}
+
+@media (max-width: 400px) {
+    .hover_effects img {
+        width: 90%;
+        margin-left: 6%;
+    }
+}

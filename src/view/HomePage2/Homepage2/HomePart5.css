@@ -1,0 +1,133 @@
+.HomeMaps{
+    width: 600px;
+    height: 400px;
+}
+
+section.homePage {
+    background: #fff;
+    margin-bottom: 5%;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.form-control {
+    height: 52px;
+    border-radius: 1px;
+    border: 1px solid #dfdfdf;
+    background-color: #fcfcfc;
+    margin-bottom: 15px;
+}
+
+.form-control {
+    height: 52px;
+    border-radius: 1px;
+    border: 1px solid #dfdfdf;
+    background-color: #fcfcfc;
+    margin-bottom: 15px;
+}
+
+textarea.form-control {
+    min-height: 128px;
+}
+
+.button.btn_blue {
+    background: #deb666;
+    border-color: #deb666;
+    color: #fff;
+}
+
+.button.btn_blue {
+    background: #deb666;
+    border-color: #deb666;
+    color: #fff;
+}
+
+.button.btn_lg {
+    font-size: 1em;
+    padding: 12px 20px;
+}
+.btn_full {
+    width: 100% !important;
+}
+.button {
+    border: 1px solid;
+    border-radius: 1px;
+    font-size: .9em;
+    padding: 8px 15px;
+    background: #fff;
+    border-color: #e6eff2;
+    color: #a9a9a9;
+    font-weight: 600;
+    letter-spacing: .04em;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+    display: inline-block;
+    line-height: 1.82857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.contact-item a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.HomeiTems{
+    display: contents;
+}
+
+.icHome{
+    font-size: 180%;
+}
+
+.contact-items .contact-item {
+    background: #deb666;
+    border: 1px solid #deb666;
+    padding: 5px;
+    color: #fff;
+    margin-bottom: 8px;
+    margin-right: 6%;
+    margin-left: 6%;
+    padding-left: 10%;
+    padding-top: 11px;
+    border-radius: 1px;
+}
+
+.iHome{
+    float: left;
+    font-size: 1em;
+    color: #ffffff;
+    margin-right: 5px;
+    line-height: .7em;
+}
+
+@media (max-width: 400px){
+    .HomeMaps{
+        width: 255px;
+        height: 200px;
+    }
+
+    .contact-items .contact-item {
+        background: #deb666;
+        border: 1px solid #deb666;
+        padding: 5px;
+        color: #fff;
+        margin-bottom: 8px;
+        margin-right: 6%;
+        margin-left: 6%;
+        padding-left: 10%;
+        padding-top: 11px;
+        border-radius: 1px;
+        display: none;
+    }
+}
